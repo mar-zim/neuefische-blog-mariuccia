@@ -7,58 +7,95 @@
   </head>
   <body>
     <header>
-      
-        <img
-         src="/img/neuefische-gmbh-logo.svg" alt="neuefische Logo" 
-        />
-        <h1>neuefische Blog</h1>
-        <nav>
+      <img src="/img/neuefische-gmbh-logo.svg" alt="neuefische Logo" />
+      <h1>neuefische Blog</h1>
+      <nav>
         <a href="#articles">Articles</a>
         <a href="#imprint">Imprint</a>
-        </nav>
+      </nav>
     </header>
     <main id="articles">
       <article>
-          <h2>HTML</h2>
-          <h3>The art of sectioning</h3>
+        <h2>HTML</h2>
+        <h3>The art of sectioning</h3>
 
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            dolorem dolorum repellat corrupti nostrum qui ducimus. Explicabo
-            eligendi neque atque, eos nostrum minima similique recusandae odit
-            ipsum vitae eum repellat nam tenetur ad? Saepe earum facilis
-            reprehenderit, vel recusandae aspernatur velit nihil doloribus ipsum
-            ducimus laboriosam iure culpa illo corrupti.
-          </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+          dolorem dolorum repellat corrupti nostrum qui ducimus. Explicabo
+          eligendi neque atque, eos nostrum minima similique recusandae odit
+          ipsum vitae eum repellat nam tenetur ad? Saepe earum facilis
+          reprehenderit, vel recusandae aspernatur velit nihil doloribus ipsum
+          ducimus laboriosam iure culpa illo corrupti.
+        </p>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-            suscipit ipsam, impedit aliquid rem tempore et ab quos, nam tenetur
-            neque incidunt similique temporibus totam corporis! Explicabo,
-            debitis omnis. Laborum rem commodi veniam nesciunt, dolorum ullam
-            cumque perferendis! Aliquam qui quasi rerum quia repellat. Vel
-            quidem consectetur sint incidunt ab. Ut ea tempora nostrum totam ad
-            aliquam!
-          </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+          suscipit ipsam, impedit aliquid rem tempore et ab quos, nam tenetur
+          neque incidunt similique temporibus totam corporis! Explicabo, debitis
+          omnis. Laborum rem commodi veniam nesciunt, dolorum ullam cumque
+          perferendis! Aliquam qui quasi rerum quia repellat. Vel quidem
+          consectetur sint incidunt ab. Ut ea tempora nostrum totam ad aliquam!
+        </p>
 
-          <p>
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam consectetur optio saepe assumenda cupiditate sit eos, doloremque numquam quaerat commodi fugiat, molestias aut eum velit consequuntur atque ullam dolorem architecto.
-           
-          </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam
+          consectetur optio saepe assumenda cupiditate sit eos, doloremque
+          numquam quaerat commodi fugiat, molestias aut eum velit consequuntur
+          atque ullam dolorem architecto.
+        </p>
+
+        <h2>Comments</h2>
+
+        <p>Please fill in the form below to comment.</p>
+
+        <form action="">
+          <label for="name"
+            >Name:
+            <input type="text" id="name" />
+          </label>
+          <label for="comment"
+            >Your Comment:
+            <textarea
+              name="comment"
+              id="comment"
+              cols="50"
+              rows="10"
+            ></textarea>
+          </label>
+          <input type="submit" value="Send comment" />
+        </form>
+
+        <h3>Previous Comments</h3>
+        <p><i>Commented on May 10th, 2020 by Paul.</i></p>
+        <p>
+          I don't like the picture of the author. It does not match with the
+          name of the author.
+        </p>
+
         <aside>
           <h3>Author</h3>
           <h4>Biene Maja</h4>
           <img
-           src="/img/author.jpeg" alt="Bild des Autors" 
-           />
-          <h3>Further Articles</h3>
-          <p>
-            <ul>
-              <li><a href="http://" target="_blank" rel= "noopener norefferer"></a>Link 1</li>
-              <li><a href="http://" target="_blank" rel= "noopener norefferer"></a>Link 2</li>
-              <li><a href="http://" target="_blank" rel= "noopener norefferer"></a>Link 3</li>
-            </ul>
-          </p>
+            src="/img/author.jpeg"
+            alt="Joe Doe from behind watching nature"
+          />
+          <ul>
+            <li>
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                >Link 1</a
+              >
+            </li>
+            <li>
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                >Link 2</a
+              >
+            </li>
+            <li>
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                >Link 3</a
+              >
+            </li>
+          </ul>
         </aside>
       </article>
     </main>
