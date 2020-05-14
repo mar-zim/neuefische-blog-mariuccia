@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script defer src="js/jquery-3.5.1.min.js"></script>
+    <script defer src="/js/bootstrap.min.js"></script>
     <title>NF-Blog Mariuccia</title>
   </head>
   <body>
@@ -43,35 +46,6 @@
           numquam quaerat commodi fugiat, molestias aut eum velit consequuntur
           atque ullam dolorem architecto.
         </p>
-
-        <h2>Comments</h2>
-
-        <p>Please fill in the form below to comment.</p>
-
-        <form action="">
-          <label for="name"
-            >Name:
-            <input type="text" id="name" />
-          </label>
-          <label for="comment"
-            >Your Comment:
-            <textarea
-              name="comment"
-              id="comment"
-              cols="50"
-              rows="10"
-            ></textarea>
-          </label>
-          <input type="submit" value="Send comment" />
-        </form>
-
-        <h3>Previous Comments</h3>
-        <p><i>Commented on May 10th, 2020 by Paul.</i></p>
-        <p>
-          I don't like the picture of the author. It does not match with the
-          name of the author.
-        </p>
-
         <aside>
           <h3>Author</h3>
           <h4>Biene Maja</h4>
@@ -97,6 +71,37 @@
             </li>
           </ul>
         </aside>
+        <section>
+          <h2>Comments</h2>
+
+          <p>Please fill in the form below to comment.</p>
+
+          <form action="">
+            <label
+              >Name:
+              <input type="text" id="name" />
+            </label>
+            <label
+              >Your Comment:
+              <textarea id="comment" cols="50" rows="10"></textarea>
+            </label>
+            <button>Send comment</button>
+          </form>
+
+          <section>
+            <h3>Previous Comments</h3>
+
+            <ul>
+              <li>
+                <p><i>Commented on May 10th, 2020 by Paul:</i></p>
+                <p>
+                  I don't like the picture of the author. It does not match with
+                  the name of the author.
+                </p>
+              </li>
+            </ul>
+          </section>
+        </section>
       </article>
     </main>
 
